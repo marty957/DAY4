@@ -1,0 +1,126 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*::before *::after {
+  box-sizing: border-box;
+}
+
+poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: url(../img/sfondo.png);
+  background-position: center;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  margin-top: 1.5rem;
+  box-shadow: 1px 1px 1px grey, -1px -1px 1px grey, 1px -1px 1px grey, -1px 1px 1px grey;
+  margin-inline: auto;
+  max-width: 85%;
+  background-image: linear-gradient(115deg, rgba(95, 88, 198, 1) 16%, rgba(15, 22, 222, 1) 27%, rgba(32, 59, 173, 1) 38%);
+}
+header p,
+header li a {
+  color: aliceblue;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header > * {
+  padding: 2rem;
+}
+header ul li {
+  margin-top: 1rem;
+}
+/* MAIN */
+main {
+  text-align: left;
+  padding-inline: 1rem;
+  margin-inline: auto;
+  max-width: 85%;
+  box-shadow: 1px 1px 1px grey, -1px -1px 1px grey, 1px -1px 1px grey, -1px 1px 1px grey;
+  margin-inline: auto;
+  background-color: aliceblue;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+article {
+  padding-left: 1em;
+}
+article ul {
+  list-style-type: disc;
+}
+article p {
+  padding: 1rem;
+}
+h1 {
+  font-family: "Poppins", system-ui;
+  font-size: 2.3em;
+  font-style: normal;
+}
+
+/* TABELLE */
+table {
+  border-collapse: separate;
+  border-bottom: 2px solid lightblue;
+  max-width: 100%;
+  margin-inline: auto;
+}
+.table-color {
+  background-color: rgb(232, 241, 241);
+  box-shadow: 1px 2px 3px rgb(120, 120, 126);
+  border-radius: 5%;
+}
+thead {
+  color: rgb(172, 188, 201);
+  background-color: darkblue;
+  max-height: fit-content;
+}
+table caption {
+  font-size: large;
+}
+table th {
+  padding: 1.5em;
+}
+table td {
+  padding-block: 1.2em;
+}
+
+/* FORM */
+
+iframe {
+  display: inline-block;
+  max-width: 100%;
+  border-radius: 10%;
+  height: 180px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside {
+  margin-top: 20px;
+  margin-inline: auto;
+  max-width: 85%;
+  box-shadow: 1px 1px 1px grey, -1px -1px 1px grey, 1px -1px 1px grey, -1px 1px 1px grey;
+  margin-inline: auto;
+  background-color: aliceblue;
+}
+
+/* FOOTER */
+
+footer {
+  font-family: "Poppins", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  margin-inline: auto;
+  color: aliceblue;
+  text-align: center;
+  max-width: 85%;
+  box-shadow: 1px 1px 1px grey, -1px -1px 1px grey, 1px -1px 1px grey, -1px 1px 1px grey;
+  margin-inline: auto;
+  background-image: linear-gradient(359deg, rgb(35 33 71) 16%, rgb(24 28 137) 27%, rgb(24 48 149) 35%);
+}
